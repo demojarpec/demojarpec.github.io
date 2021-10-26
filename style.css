@@ -135,7 +135,7 @@ margin: auto;
 }
 
 
-/* SECOND PAGE */
+/* SECOND PAGE - Services, flexbox */
 
 
 #services-container{
@@ -165,7 +165,7 @@ margin: auto;
 	width: 60px;
 }
 
-#flex-container > div h2 {
+#flex-container > div h2, #automation-experience h2 {
 	text-align:center;
 }
 
@@ -178,7 +178,7 @@ margin: auto;
 }
 
 
-/* THIRD PAGE, grid layout */
+/* THIRD PAGE - Contact, grid layout */
 
 .item1 { 
 	grid-area: header; 
