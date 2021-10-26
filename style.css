@@ -11,6 +11,10 @@ body {
 
 /* Banner */
 
+.banner {
+	background-color: #3056a2;
+}
+
 .banner img{
 	width: 300px;
 	padding: 15px;
