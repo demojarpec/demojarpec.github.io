@@ -335,6 +335,8 @@ body {
 	
 #flex-container > div {
 	font-size: 15px;
+	margin: 5px;
+	padding: 8px;
 }
 
 	/* sources don't need */
