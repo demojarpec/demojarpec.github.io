@@ -131,8 +131,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
-	height: 50%;
+	width: 200px;
+	height: 200px;
 }
 
 .card-white:hover {
