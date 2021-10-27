@@ -11,6 +11,10 @@ body {
 
 /* Banner */
 
+.banner{
+	background-color: white;
+}
+
 .banner img{
 	width: 300px;
 	padding: 15px;
@@ -87,6 +91,10 @@ margin: auto;
 	background-color: #3056a2;
 }
 
+#mainpageBanner > img{
+	width: 500px;
+}
+
 #mainpageContainer{
   	width: 800px;
   	margin: auto;
@@ -135,7 +143,7 @@ margin: auto;
 }
 
 
-/* SECOND PAGE - Services, flexbox */
+/* SECOND PAGE */
 
 
 #services-container{
@@ -148,6 +156,7 @@ margin: auto;
 #flex-container {
 	background-color: white;
 	display: flex;
+	flex-direction: row;
 	margin-bottom: 10px;
 }
 
@@ -158,14 +167,13 @@ margin: auto;
 	border-radius: 10px;
 	flex: 1;
 	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
 	line-height: 40px;
 	margin: 10px;
 	padding: 16px;
 	width: 60px;
 }
 
-#flex-container > div h2, #automation-experience h2 {
+#flex-container > div h2, #automation-experience > h2 {
 	text-align:center;
 }
 
@@ -175,10 +183,11 @@ margin: auto;
 	box-shadow: 0 0 16px rgba(0,0,0,0.1);
 	padding: 16px;
 	border-radius: 10px;
+	font-size: 20px;
 }
 
 
-/* THIRD PAGE - Contact, grid layout */
+/* THIRD PAGE, grid layout */
 
 .item1 { 
 	grid-area: header; 
@@ -245,3 +254,77 @@ margin: auto;
 
 /* Responsive design */
 
+@media (max-width: 800px) {
+
+	/* all pages */
+
+.banner img{
+	width: 200px;
+}
+
+.menu{
+	width: 100%;
+}
+
+.footer-item{
+	width: 80%;
+}
+
+#all-footer-items{
+	grid-template-columns: 1fr;
+}
+
+#footer h3{
+	text-indent: 5px;
+}
+
+	/* main page */
+
+#mainpageBanner > img{
+	width: 350px;
+}
+
+#cards {
+	grid-template-columns: 1fr;
+	width: 80%
+}
+
+#mainpageContainer{
+	width: 80%;
+	margin: auto;
+}
+
+.card-white{
+	width: 100%;
+}
+
+
+	/* services */
+
+#flex-container{
+	flex-direction: column;
+}
+
+#flex-container div, #automation-experience{
+	width: 80%;
+	margin: auto;
+}
+
+
+
+	/* contact */
+
+.grid-container {
+	grid-template-areas:
+		'picture'
+		'header'
+		'information'
+		'information';
+	width: 90%;
+	margin: auto;
+}
+
+
+	/* sources don't need */
+
+}
