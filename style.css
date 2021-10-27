@@ -146,7 +146,7 @@ body {
 }
 
 
-/* SECOND PAGE */
+/* SECOND PAGE - Services, flexbox */
 
 
 #services-container{
@@ -190,7 +190,7 @@ body {
 }
 
 
-/* THIRD PAGE, grid layout */
+/* THIRD PAGE - Contact, grid layout */
 
 .item1 { 
 	grid-area: header; 
@@ -331,7 +331,11 @@ body {
 #contact-image{
 	float: left;
 	width: 80%;
-]
+}
+	
+#flex-container > div {
+	font-size: 15px;
+}
 
 	/* sources don't need */
 
