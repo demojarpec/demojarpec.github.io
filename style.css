@@ -92,14 +92,15 @@ body {
   	padding: 150px 0px;
   	text-align: center;
 	background-color: #3056a2;
+	width: 100%
 }
 
 #mainpageBanner > img{
-	width: 500px;
+	width: 60%;
 }
 
 #mainpageContainer{
-  	width: 800px;
+  	width: 60%;
   	margin: auto;
 	padding: 20px;
 }
@@ -112,7 +113,7 @@ body {
   	background: white;
   	box-shadow: 0 0 16px rgba(0,0,0,0.1);
   	border-radius: 4px;
-  	width: 200px;
+  	width: 80%;
   	text-align: center;
   	padding: 24px;
   	margin: 8px;
@@ -130,8 +131,8 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
-	height: 200px;
+	width: 90%;
+	height: 50%;
 }
 
 .card-white:hover {
