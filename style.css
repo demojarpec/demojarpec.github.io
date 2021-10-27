@@ -14,10 +14,11 @@ body {
 
 .banner{
 	background-color: white;
+	width: 100%;
 }
 
 .banner img{
-	width: 300px;
+	width: 20%;
 	padding: 15px;
 }
 
@@ -56,6 +57,7 @@ body {
 #footer{
 	background-color: #3056a2;
 	padding: 15px 0px 15px 0px;
+	width: 100%;
 }
 
 .footer-item{
