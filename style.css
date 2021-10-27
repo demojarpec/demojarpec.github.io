@@ -338,6 +338,11 @@ body {
 	margin: 5px;
 	padding: 8px;
 }
+	
+.item1, .item3 {
+	padding: 7px;
+}
+
 
 	/* sources don't need */
 
