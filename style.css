@@ -278,7 +278,7 @@ body {
 }
 
 #footer h3{
-	text-indent: 5px;
+	text-align: center;
 }
 
 	/* main page */
@@ -329,6 +329,7 @@ body {
 
 #contact-image{
 	float: left;
+	width: 80%;
 ]
 
 	/* sources don't need */
