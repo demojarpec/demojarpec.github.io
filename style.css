@@ -7,6 +7,7 @@ body {
   	color: #3056a2;
   	font-size: 18px;
   	background-color: white;
+	margin: 0;
 }
 
 /* Banner */
@@ -54,14 +55,14 @@ body {
 
 #footer{
 	background-color: #3056a2;
-	 padding: 15px;
+	padding: 15px 0px 15px 0px;
 }
 
 .footer-item{
-   width: 200px;
-   text-align: left;
-   padding: 0px 0px 0px 24px;
-   margin: 8px;
+ 	width: 100%;
+ 	text-align: left;
+ 	padding: 0px 0px 0px 24px;
+ 	margin: 8px;
 }
 
 #footer h3{
@@ -70,15 +71,15 @@ body {
 }
 
 #footer h3, .footer-item p{
- color: #f2f2f2;
+	color: #f2f2f2;
 }
 
 #all-footer-items{
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 16px;
-width: 800px;
-margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 16px;
+	width: 50%;
+	margin: auto;
 }
 
 
@@ -132,7 +133,7 @@ margin: auto;
 }
 
 .card-white:hover {
-  background-color:rgba(0,0,0,0.1);
+	background-color:rgba(0,0,0,0.1);
 }
 
 
@@ -213,21 +214,21 @@ margin: auto;
 
 
 .grid-container {
-  display: grid;
-  grid-template-areas:
-    'picture header header'
-    'picture information information';
-  grid-gap: 10px;
-  background-color: white;
-  padding: 40px;
-  width: 90%;
-  margin: auto;
+ 	display: grid;
+ 	grid-template-areas:
+  		'picture header header'
+		'picture information information';
+	grid-gap: 10px;
+	background-color: white;
+	padding: 40px;
+	width: 90%;
+	margin: auto;
 }
 
 .grid-container > div {
-  text-align: left;
-  background-color:white;
-  color:#3056a2;
+	text-align: left;
+	background-color:white;
+	color:#3056a2;
 }
 
 /* FOURTH PAGE - Sources */
