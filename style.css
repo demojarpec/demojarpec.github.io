@@ -51,6 +51,9 @@ body {
 	background-color: rgba(0,0,0,0.50);
   }
 
+.menu-validator{
+	float: right;
+}
 
 /* Footer */
 
