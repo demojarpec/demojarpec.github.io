@@ -321,7 +321,7 @@ body {
 
 #flex-container div, #automation-experience{
 	width: 80%;
-	margin: auto;
+	margin: 10px auto auto auto;
 }
 
 
