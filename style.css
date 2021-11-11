@@ -273,6 +273,11 @@ body {
 	width: 100%;
 }
 
+.menu a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+	
 .footer-item{
 	width: 80%;
 }
