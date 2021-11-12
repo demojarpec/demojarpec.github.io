@@ -328,23 +328,23 @@ body {
 	text-align: center;
 }
 
-	/* main page */
+	/* main page + experience */
 
 #mainpageBanner > img{
 	width: 350px;
 }
 
-#cards {
+#cards, #experienceList {
 	grid-template-columns: 1fr;
 	width: 80%
 }
 
-#mainpageContainer{
+#mainpageContainer, #experienceContainer {
 	width: 80%;
 	margin: auto;
 }
 
-.card-white{
+.card-white, .list-item {
 	width: 100%;
 }
 
