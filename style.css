@@ -306,6 +306,10 @@ body {
 	font-size: 15px;
 }
 	
+.menu-validator {
+	display: none;
+}
+	
 .footer-item{
 	width: 80%;
 }
