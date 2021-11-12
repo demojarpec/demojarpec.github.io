@@ -180,17 +180,8 @@ body {
 	width: 60px;
 }
 
-#flex-container > div h2, #automation-experience > h2 {
+#flex-container > div h2 {
 	text-align:center;
-}
-
-#automation-experience{
-	width: 50%;
-	margin: auto;
-	box-shadow: 0 0 16px rgba(0,0,0,0.1);
-	padding: 16px;
-	border-radius: 10px;
-	font-size: 20px;
 }
 
 /* THIRD PAGE - Experience, same layout as the mainpage */
@@ -355,11 +346,10 @@ body {
 	flex-direction: column;
 }
 
-#flex-container div, #automation-experience{
+#flex-container div {
 	width: 80%;
 	margin: 10px auto auto auto;
 }
-
 
 
 	/* contact */
