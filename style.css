@@ -92,8 +92,8 @@ body {
 
 #mainpageBanner{
 
-  	padding: 150px 0px;
-  	text-align: center;
+  padding: 150px 0px;
+  text-align: center;
 	background-color: #3056a2;
 	width: 100%
 }
@@ -103,8 +103,8 @@ body {
 }
 
 #mainpageContainer{
-  	width: 70%;
-  	margin: auto;
+  width: 70%;
+  margin: auto;
 	padding: 20px;
 }
 
@@ -113,13 +113,13 @@ body {
 }
 
 .card-white{
-  	background: white;
-  	box-shadow: 0 0 16px rgba(0,0,0,0.1);
-  	border-radius: 4px;
-  	width: 80%;
-  	text-align: center;
-  	padding: 24px;
-  	margin: 8px;
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 80%;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
 	transition: 0.3s;
 }
 
@@ -193,8 +193,45 @@ body {
 	font-size: 20px;
 }
 
+/* THIRD PAGE - Experience, same layout as the mainpage */
 
-/* THIRD PAGE - Contact, grid layout */
+#experienceContainer{
+	width: 70%;
+	margin: auto;
+  padding: 20px;
+}
+
+
+.list-item{
+	background: #f2f2f2;
+	color: #3056a2;
+	border-style: dashed;
+	border-color: #3056a2;
+	border-radius: 10px;
+	width: 80%;
+	height: fixed;
+	padding: 12px;
+	margin: 15px;
+	text-align: center;
+}
+
+.list-item h3{
+	font-size: 15px;
+}
+
+.list-item img{
+	width: 10px;
+}
+
+
+#experienceList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+/* FOURTH PAGE - Contact, grid layout */
 
 .item1 { 
 	grid-area: header; 
@@ -237,7 +274,7 @@ body {
 	color:#3056a2;
 }
 
-/* FOURTH PAGE - Sources */
+/* FIFTH PAGE - Sources */
 
 #sources{
 	width: 60%;
